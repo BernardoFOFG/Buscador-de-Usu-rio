@@ -1,0 +1,151 @@
+@media (min-width: 320px) {
+  @media (max-width: 991px) {
+    .container-app .container {
+      display: flex;
+      align-items: center;
+      max-height: 600px;
+      margin: 0 auto;
+      padding: 0;
+      gap: 8px;
+      justify-content: flex-end;
+    }
+    .header-top {
+      margin-top: 8px;
+    }
+    .container-app .container main {
+      flex-direction: column;
+      gap: 8px;
+    }
+    .container-app .container main input {
+      margin: 5px 10px;
+      padding: 15px 0px;
+    }
+    .container-app .container main button {
+      margin: 5px;
+      padding: 15px 5px;
+    }
+    .container-app .container main .form h1 {
+      font-size: 20px;
+      text-align: center;
+    }
+    .container-app .container main .content div {
+      padding: 0;
+      width: 450px;
+    }
+    .container-app .container .header-top h1 {
+      font-size: 1.8rem;
+      text-align: center;
+      margin: 0;
+    }
+    .container-app .container main .content div img {
+      width: 175px;
+      height: 175px;
+    }
+    .container-app .container main input {
+      width: 280px;
+    }
+    .container-app .container main .content {
+      align-items: center;
+      justify-content: center;
+    }
+    .container-app .container main .content div h1 {
+      margin-top: 1rem;
+    }
+    .container-app .container main .content div p {
+      margin-top: 0.5rem;
+    }
+  }
+}
+
+@media (min-width: 320px) {
+  @media (max-width: 424px) {
+    .container,
+    .container-app .container main .content {
+      width: 310px;
+    }
+    .container-app .container main .content div img {
+      width: 130px;
+      height: 130px;
+    }
+    .container-app .container .header-top h1 {
+      font-size: 1.5rem;
+    }
+    .container-app .container main button {
+      padding: 10px 5px;
+    }
+    .container-app .container main .content div h1 {
+      font-size: 24px;
+    }
+    .container-app .container main .content div p {
+      font-size: 16px;
+    }
+    .container-app .container main .content div {
+      height: 350px;
+    }
+  }
+}
+
+@media (min-width: 425px) {
+  @media (max-width: 556px) {
+    .container-app .container {
+      max-height: 680px;
+    }
+    .container,
+    .container-app .container main .content {
+      width: 400px;
+    }
+    .container-app .container main .content div img {
+      width: 130px;
+      height: 130px;
+    }
+    .container-app .container .header-top h1 {
+      font-size: 1.5rem;
+      margin-top: 20px;
+    }
+    .container-app .container main {
+      height: 100%;
+    }
+    .container-app .container main button {
+      padding: 10px 5px;
+    }
+    .container-app .container main .content div h1 {
+      font-size: 24px;
+    }
+    .container-app .container main .content div p {
+      font-size: 16px;
+    }
+    .container-app .container main .content div {
+      height: 450px;
+    }
+  }
+}
+@media (min-width: 557px) {
+  @media (max-width: 991px) {
+    .container-app .container {
+      max-height: 680px;
+    }
+    .container-app .container main .content div img {
+      width: 130px;
+      height: 130px;
+    }
+    .container-app .container .header-top h1 {
+      font-size: 1.5rem;
+      margin-top: 20px;
+    }
+    .container-app .container main {
+      height: 100%;
+    }
+    .container-app .container main button {
+      padding: 10px 5px;
+    }
+    .container-app .container main .content div h1 {
+      font-size: 24px;
+    }
+    .container-app .container main .content div p {
+      font-size: 16px;
+    }
+    .container-app .container main .content div {
+      height: 450px;
+    }
+  }
+}
