@@ -30,6 +30,9 @@ function App() {
         setAvatarURL(res.data.avatar_url);
         setRepo(res.data.public_repos);
         setLink(res.data.html_url);
+      })
+      .catch((res) => {
+        alert("Usuário não encontrado")
       });
   };
   return (
